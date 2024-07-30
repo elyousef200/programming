@@ -1,0 +1,462 @@
+
+*{
+    scroll-behavior:smooth;
+}
+    
+.background{
+background-image: url(images/background.jpg);
+background-repeat:no-repeat;
+background-size:cover ;
+background-position: center center;
+background-attachment: fixed;
+
+
+
+
+
+
+
+}
+
+.head{
+
+background-color: #201c1c;
+background-size: cover;
+height: 70px;
+font-size: 20px;
+}
+
+
+.title{
+color: rgb(227, 214, 214);
+background-color: #030101;
+margin-left:840px;
+margin-right: 215px;
+margin-top:0px;
+font-size: 30px;
+text-align: center;
+
+
+}
+
+.address{
+color: rgb(53, 53, 62);
+background-color: #eee;
+
+
+}
+
+
+.emogy{
+color :rgb(43, 4, 185);
+background-color: #EEE;
+}
+
+.linkes a{
+
+margin-left:70px;
+background-color: rgb(115, 98, 176);
+color:white;
+padding-left: 30 px;
+text-decoration: none;
+font-size:30px;
+border-radius: 5px;
+text-align: center;
+transition: 0.7s ease;
+
+
+
+
+}
+
+.linkes a:hover{
+color: rgb(0, 0, 0);
+font-size: 35px;
+background-color: cadetblue;
+border-radius: 40%;
+}
+
+
+
+.aim{
+margin-left:450px;
+
+margin-top:200px;
+font-size: 40px;
+color: blue;
+background-color:#383131;
+border-radius:25%;
+border: #3f3b3b solid;
+text-align: center;
+width:647px
+
+}
+
+.job{
+margin-top: 10px;
+margin-left:350px;
+background-color:#383131;
+background-attachment: fixed;
+color:rgb(72, 72, 148);
+text-align:center;
+width:860px;
+height: 250px;
+font-size: 30px;
+border-right: #9f1e1e solid;
+border-left: #938a8a solid;
+border-top: #9f1e1e solid;
+border-bottom: #938a8a solid;
+border-radius: 5%;
+
+
+
+}
+
+road a{
+text-decoration: none;
+color:white;
+margin-left:670px;
+background-color: rgb(115, 98, 176);
+font-size: 30px;
+transition: 0.7s ease;
+border-radius: 25%;
+}
+
+road :hover{
+color: rgb(0, 0, 0);
+background-color: cadetblue;
+font-size: 33px;
+}
+.content{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.card{
+box-shadow: 0 15px 25px rgb(1 1 1 /15);
+padding: 15px;
+margin: 50px;
+font-size: 30px;
+text-align:center;
+
+}
+
+.card .icon{
+font-size: 50px;
+text-align: center;
+}
+
+.info h2{
+color:blue;
+}
+
+.info p{
+color:rgb(37, 37, 120);
+}
+
+.project{
+margin: 40px;
+margin-top: 200px;
+margin-left:100px;
+box-shadow: 0 15px 25px rgb(23, 116, 183);
+width: 350px;
+height: 450px;
+display: inline-block;
+text-align: center;
+
+}
+
+.titlee .starting{
+color: rgb(232, 230, 239);
+margin-left:70px;
+margin-top: 10%;
+
+}
+
+.ditals a{
+text-decoration: none;
+color: white;
+
+transition:0.7s ease ;
+
+}
+
+.ditals{
+font-size: 30px;
+background-color:rgba(65, 13, 222, 0.879) ;
+margin-left: 15px;
+width: 90%;
+text-align: center;
+border-radius: 30%;
+margin-top:20%;
+}
+
+.ditals :hover{
+color:rgba(0, 0, 0, 0.879);
+font-size: 33px;
+}
+
+.road2{
+margin: 10px; 
+background-image: url(images/back2.gif); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+box-shadow: 0px 15px 25px rgb(150, 73, 73);
+background-size: cover;
+}
+
+.contact{
+margin-top: 500px;
+background-color: #dddd;
+background-color: #160c25;
+padding-top: 50px;
+
+}
+
+
+
+.contact .social a{
+font-size: 40px;
+text-decoration: none;
+margin-left:50px;
+margin-top: 100;
+color:#eee;
+transition: 0.7s ease;
+padding-left: 5px;
+padding-right: 5px;
+text-align: center;
+
+
+}
+
+.social a:hover{
+color: cadetblue;
+font-size: 45px;
+box-shadow: 0px 15px 25px white;
+}
+
+.mine .footer{
+color: white;
+text-align: center;
+}
+.mine .me{
+color: rgb(77, 122, 81);
+text-align: center;
+
+}
+
+.mine{
+font-size: 20px;
+margin-left:600px ;
+box-shadow: 0px 5px 35px white;
+width: 350px;
+}
+
+.contact .other a{
+padding: 10px;
+color: blue;
+margin-left: 1100px;
+padding: 5px;
+display: block;
+width: 60px;
+text-align: center;
+text-decoration: none;
+
+
+
+}
+
+.contact .other :hover{
+color: rgb(223, 224, 232);
+
+}
+
+.contact .famous{
+color: rgb(62, 71, 62);
+font-size: 30px;
+margin-left: 1115px;
+width: 60px;
+}
+
+@media (max-width: 1023px){
+
+.background{
+    height: 3200px;
+    width: 150%;
+    padding-top: 100px;
+}
+.head{
+    margin-left: 0px;
+    width: 120em;
+    background-color: #2d2b2b;
+    height: 150px;
+
+}
+.title{
+    margin-left: 750px;
+    width: 650px;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-right: 450;
+    padding-top: 40px;
+
+}
+
+.address{
+    margin-left: 0px;
+    width: 550px;
+}
+
+.linkes a{
+
+margin-left:70px;
+background-color: rgb(115, 98, 176);
+color:white;
+padding-left: 30 px;
+text-decoration: none;
+font-size:60px;
+border-radius: 5px;
+text-align: center;
+transition: 0.7s ease;
+
+
+
+
+}
+
+.linkes a:hover{
+color: rgb(0, 0, 0);
+font-size: 65px;
+background-color: cadetblue;
+border-radius: 40%;
+}
+
+
+
+
+
+.aim{
+margin-left:500px;
+
+margin-top:500px;
+font-size: 70px;
+color: blue;
+background-color:#383131;
+border-radius:25%;
+border: #3f3b3b solid;
+text-align: center;
+width:647px
+
+}
+
+.job{
+margin-top: 10px;
+margin-left:10px;
+margin-right:150px;
+background-color:#383131;
+background-attachment: fixed;
+color:rgb(72, 72, 148);
+text-align:center;
+width:1400px;
+height: 650px;
+font-size: 55px;
+border-right: #9f1e1e solid;
+border-left: #938a8a solid;
+border-top: #9f1e1e solid;
+border-bottom: #938a8a solid;
+border-radius: 5%;
+padding-top: 50px;
+
+
+
+}
+
+road a{
+text-decoration: none;
+color:white;
+margin-left:70px;
+background-color: rgb(115, 98, 176);
+font-size: 75px;
+transition: 0.7s ease;
+border-radius: 25%;
+margin-top:600px;
+}
+
+road :hover{
+color: rgb(0, 0, 0);
+background-color: cadetblue;
+font-size: 80px;
+}
+
+.content{
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+
+.card{
+box-shadow: 0 15px 25px rgb(1 1 1 /15);
+padding: 15px;
+margin-left: 40%;
+font-size: 30px;
+text-align:center;
+width: 600px;
+
+}
+
+
+.road2{
+width:2000px;
+padding-left: 250px;
+justify-content: center;
+flex-direction: column;
+height: 1000px;
+height: 3000px;
+}
+
+.project{
+margin-left: 10%;
+margin-top: 300px;
+box-shadow: 0 15px 25px black;
+width: 450px;
+height: 450px;
+display: inline-block;
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+text-align: center center;
+padding: 50px;
+}
+
+
+.contact{
+width:3000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
